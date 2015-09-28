@@ -4,9 +4,9 @@ export default function Partition () {
   var value = d => d.value
 
   partition.nodes = partition
-  partition.sort = (...x) => x.length ? (sort = x, partition) : partition
-  partition.value = (...x) => x.length ? (value = x, partition) : partition
-  partition.children = (...x) => x.length ? (children = x, partition) : partition
+  partition.sort = (...x) => x.length ? (sort = x[0], partition) : partition
+  partition.value = (...x) => x.length ? (value = x[0], partition) : partition
+  partition.children = (...x) => x.length ? (children = x[0], partition) : partition
 
   return partition
 
