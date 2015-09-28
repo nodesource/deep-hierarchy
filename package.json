@@ -1,6 +1,6 @@
 {
   "name": "deep-hierarchy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fork of d3's base hierarchy layout which includes the values of inner nodes in its final sums",
   "main": "index.out.js",
   "scripts": {
